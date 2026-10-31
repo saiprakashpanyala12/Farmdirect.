@@ -54,11 +54,11 @@ Install the following before running the project:
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/saiprakashpanyala12/Farmdirect.
 cd FarmDirect
 ```
 
-Replace `<YOUR_GITHUB_REPOSITORY_URL>` with your repository's actual URL.
+Replace `(https://github.com/saiprakashpanyala12/Farmdirect.)` with your repository's actual URL.
 
 ### 2. Install dependencies
 
@@ -73,8 +73,8 @@ Create a `.env.local` file in the project root and add the Supabase environment 
 For example, if your code uses these variable names:
 
 ```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_ANON_KEY=your_supabase_publishable_or_anon_key
+VITE_SUPABASE_URL=https://lsakdebthqfaqwegrmpb.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_DpheG9ngyArp0rvadKf6KA_CKtimVvv
 ```
 
 Use the exact variable names expected by your code. Never commit real credentials, service-role keys, or other secrets to GitHub.
